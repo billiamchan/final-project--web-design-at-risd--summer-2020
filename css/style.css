@@ -35,7 +35,7 @@ body {
 }
 
 .col2 {
-  background-color: #fff;
+  background-color: #eee;
   margin-left: 20%;
   overflow: auto;
 }
@@ -59,7 +59,9 @@ h1 {
 #moo  {
  display: flex;
  justify-content: center;
- padding-top: 10vh
+ padding-top: 10vh;
+ width: 40%;
+ height: auto;
 }
 
 .wow {
@@ -74,5 +76,20 @@ h1 {
 
 #bio {
   font-size: 0.9em;
-  margin-left: 15px;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+#xcsite {
+  margin-left:20px;
+  background-color: #B48EAE;
+  color: #222;
+  width: 220px;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(8, 5vw);
+    grid-gap: 15px;
 }
