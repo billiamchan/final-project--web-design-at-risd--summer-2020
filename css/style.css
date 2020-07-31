@@ -145,3 +145,9 @@ textarea {
   font-weight:700;
 }
 [type="submit"]:hover { background:#BAACBD; }
+
+#accent {
+  font-size: 4em;
+  background-color: #BAACBD;
+  width: 100vw
+}
