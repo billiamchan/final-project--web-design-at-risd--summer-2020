@@ -1,0 +1,44 @@
+a:link {
+    text-decoration: none;
+    color: #222;
+    margin: 0;
+    padding: 0;
+}
+
+a:visited{
+text-decoration: none;
+color: #222
+}
+
+html, body, .col1, .col2 {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+.col1{
+  width: 20%;
+}
+
+.col2{
+  width: 80%;
+}
+
+.col1 {
+  background-color: pink;
+  position: fixed;
+  left: 0;
+  top: 0;
+}
+
+.col2 {
+  background-color: silver;
+  margin-left: 20%;
+  overflow: auto;
+}
+
+#meow {
+  margin-top: 30px;
+}
