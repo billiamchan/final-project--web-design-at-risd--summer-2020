@@ -102,7 +102,7 @@ h1 {
 }
 
 body { background:rgb(30,30,40); }
-form { max-width:420px; margin: -400px 30px 30px 300px; height: 100vh; }
+form { max-width:420px; margin: -500px 30px 30px 300px; height: 100vh; }
 
 .feedback-input {
   color: #333;
